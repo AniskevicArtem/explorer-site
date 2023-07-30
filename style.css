@@ -3,6 +3,95 @@
     box-sizing: border-box;
     margin: 0;
 }
-.back-img {
-    width: 100%;
+.container {
+    
+}
+.background {
+    background-image: url(./img/background.PNG);
+    background-size: 100%;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.navigation-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 70px;
+}
+.left-side {
+    display: flex;
+    flex-direction: row;
+    margin-right: 20px;
+}
+.left-side a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.right-side {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+.right-side a {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.nav-link {
+    font-family: 'Lato', sans-serif;
+    color: #fff;
+    opacity: 70%;
+}
+
+.cards {
+    width: 825px;
+}
+.user-info {
+    position: relative;
+    height: 330px;
+    margin-left: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+    flex-direction: column;
+}
+.back-card-img {
+    position: absolute;
+}
+.user-avatar {
+    height: 40px;
+}
+.username-date {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    line-height: 20px;
+}
+.title-card {
+    display: flex;
+    align-items: flex-end;
+}
+.user-block {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.username {
+    font-family: 'Montserrat', sans-serif;
+}
+.date {
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+}
+.card-title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    line-height: 40px;
+}
+.arrow {
+    width: 15px;
 }
