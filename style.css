@@ -4,7 +4,14 @@
     margin: 0;
 }
 .container {
-    
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+.card {
+    border-radius: 0px;
+    border: none;
 }
 .background {
     background-image: url(./img/background.PNG);
@@ -44,10 +51,11 @@
     font-family: 'Lato', sans-serif;
     color: #fff;
     opacity: 70%;
+    font-size: 15px;
 }
 
 .cards {
-    width: 825px;
+    width: 824px;
 }
 .user-info {
     position: relative;
@@ -94,4 +102,19 @@
 }
 .arrow {
     width: 15px;
+    color: #8D4FDB;
+}
+.card-text {
+    margin: 30px 60px 30px 60px;
+    padding-bottom: 30px;
+}
+.text-card {
+    font-family: 'Lato', sans-serif;
+    font-size: 18.5px;
+    margin-bottom: 10px;
+}
+.continue-reading a {
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    color: #8D4FDB;
 }
