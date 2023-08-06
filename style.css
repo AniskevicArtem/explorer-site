@@ -118,3 +118,26 @@ a {
     font-size: 17px;
     color: #8D4FDB;
 }
+.read-more-block {
+    padding-bottom: 100px;
+}
+.read-more {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F1F1F1;
+    padding: 50px 0px 60px 0px;
+}
+.want-to-read-more {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+}
+.visit-blog-btn {
+    background-color: #8D4FDB;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 3px;
+    letter-spacing: 1px;
+}
