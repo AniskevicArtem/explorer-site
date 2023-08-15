@@ -15,7 +15,9 @@ a {
 }
 .background {
     background-image: url(./img/background.PNG);
-    background-size: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .logo {
     display: flex;
