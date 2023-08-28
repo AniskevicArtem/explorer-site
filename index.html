@@ -14,20 +14,29 @@
 
 <body>
     <div class="background">
-        <nav class="navigation">
-            <div class="logo">
-                <img src="./img/title.svg" alt="">
-            </div>
-            <div class="navigation-bar">
-                <div class="left-side">
-                    <a href="#" class="nav-link">HOME</a>
-                    <a href="#" class="nav-link">BLOG</a>
-                    <a href="#" class="nav-link">CATEGORIES</a>
-                    <a href="#" class="nav-link">PICK CATEGORY</a>
-                </div>
-                <div class="right-side">
-                    <a href="#" class="nav-link">ABOUT US</a>
-                    <a href="#" class="nav-link">CONTACT US</a>
+        <nav class="navbar navbar-expand-lg menu-bg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">
+                    <img class="logo" src="./img/title.svg" alt="">
+                </a>
+                <button class="navbar-toggler menu-btn" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Переключатель навигации">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+                    <div class="navbar-nav navigation">
+                        <div class="left-side">
+                            <a href="#" class="nav-link">HOME</a>
+                            <a href="#" class="nav-link">BLOG</a>
+                            <a href="#" class="nav-link">CATEGORIES</a>
+                            <a href="#" class="nav-link">PICK CATEGORY</a>
+                        </div>
+                        <div class="right-side">
+                            <a href="#" class="nav-link">ABOUT US</a>
+                            <a href="#" class="nav-link">CONTACT US</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -206,10 +215,12 @@
     </div>
     <footer>
         <div class="footer-text">
-            <p class="copyright-explorer">Copyright © Explorer - Images used for demonstration purpose only ( <a href="#" class="footer-link">Licenses</a>)</p>
+            <p class="copyright-explorer">Copyright © Explorer - Images used for demonstration purpose only ( <a
+                    href="#" class="footer-link">Licenses</a>)</p>
         </div>
         <div class="footer-text">
-            <p class="copyright-studio">Copyright © <a href="#" class="footer-link">Studio Corvus</a> Powered by <a href="#" class="footer-link">Webflow</a></p>
+            <p class="copyright-studio">Copyright © <a href="#" class="footer-link">Studio Corvus</a> Powered by <a
+                    href="#" class="footer-link">Webflow</a></p>
         </div>
     </footer>
     </div>
